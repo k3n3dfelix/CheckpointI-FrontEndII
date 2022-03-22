@@ -10,9 +10,9 @@ formulario.addEventListener("submit", function(event){
     let imagem = document.querySelector("input[name='imagem']");
     let descricao = document.querySelector("textarea[name='descricao']");
    
-    let novaDiv = document.createElement('div');
+    //let novaDiv = document.createElement('div');
   
-    novaDiv.innerHTML = ` 
+    let novaDiv = ` 
     <div class="card gap" >
         <img src="${imagem.value}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -26,6 +26,7 @@ formulario.addEventListener("submit", function(event){
         </div>
     </div>`;
     let cards_geral = document.getElementById('cards-geral');
+    cards_geral.innerHTML += novaDiv;
     cards_geral.appendChild(novaDiv);
   
     
