@@ -1,0 +1,29 @@
+body{
+    background-color: #808080;
+}
+
+section{
+    width: 290px;
+    background-color: #919191;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+input:hover{
+    background-color: #e1e5eb;
+}
+
+.gap{
+    margin:10px;
+    width: 15rem;
+}
+
+.cards-geral{
+    justify-content: center;
+}
