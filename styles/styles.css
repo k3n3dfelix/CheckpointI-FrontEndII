@@ -16,5 +16,14 @@ section{
 }
 
 input:hover{
-    background-color: #fc9393;
+    background-color: #e1e5eb;
+}
+
+.gap{
+    margin:10px;
+    width: 15rem;
+}
+
+.cards-geral{
+    justify-content: center;
 }
